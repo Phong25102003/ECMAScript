@@ -1,5 +1,6 @@
 import { render, router } from "./lib";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import HomePage from "./pages/home";
