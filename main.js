@@ -24,8 +24,8 @@ router.on("/project/:id", (params) => render(() => ProjectDetailPage(params), ap
 router.on("/posts", () => render(PostsPage, app));
 router.on("/post/:id", () => render(PostDetailPage, app));
 
-router.on("/admin/project", () => render(AdminProjectsPage, app))
-
+router.on("/admin/projects", () => render(AdminProjectsPage, app));
+router.on("/admin/projects/add", () => render(AdminAddProjectsPage, app));
 router.notFound(() => render(NotFoundPage, app));
 //npm i navigo --save
 router.resolve();

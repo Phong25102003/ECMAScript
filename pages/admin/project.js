@@ -1,10 +1,9 @@
 import { projects } from "../../data";
 import { useEffect, useState } from "../../lib";
-import Header from "../../components/Header";
+
 
 const AdminProjectsPage = () => {
-    const [data, setData] = useState(projects); // [data,data2,data3]
-
+    const [data, setData] = useState([]);
     // chạy sau khi render
     useEffect(function () {
         const btns = document.querySelectorAll(".btn-remove");
