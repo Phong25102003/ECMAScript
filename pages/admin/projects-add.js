@@ -15,8 +15,8 @@ const AdminAddProjectsPage = () => {
                 img: "https://picsum.photos/400/400",
             };
             projects.push(newObject);
-            localStorage.setItem("projects", JSON.stringify(projects));
-            router.navigate("/admin/projects");
+            localStorage.setItem("project", JSON.stringify(projects));
+            router.navigate("/admin/project");
         });
     });
 
