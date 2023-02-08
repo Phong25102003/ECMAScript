@@ -2,7 +2,7 @@ import { projects } from "../../data";
 import { useEffect, useState } from "../../lib";
 
 
-const AdminProjectsPage = () => {
+const AdminProjectPage = () => {
     const [data, setData] = useState([]);
     // chạy sau khi render
     useEffect(function () {
@@ -50,4 +50,4 @@ const AdminProjectsPage = () => {
     </div>`;
 };
 
-export default AdminProjectsPage;
+export default AdminProjectPage;
